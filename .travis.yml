@@ -1,3 +1,10 @@
-language: node_js
-node_js:
-  - "4"
+language: ruby
+rvm:
+  - 2.2.3
+  - 1.9.3
+
+install:
+  - npm install
+
+script:
+  - npm test
