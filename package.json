@@ -6,5 +6,8 @@
     "karma-coffee-preprocessor": "*",
     "karma-slim-preprocessor": "*",
     "karma-phantomjs-launcher": "*"
+  },
+  "scripts": {
+   "test": "karma start --single-run --browsers PhantomJS"
   }
 }
