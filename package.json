@@ -8,6 +8,6 @@
     "karma-phantomjs-launcher": "*"
   },
   "scripts": {
-   "test": "karma start --single-run --browsers PhantomJS"
+   "test": "karma start spec/karma/config.js --single-run --browsers PhantomJS"
   }
 }
